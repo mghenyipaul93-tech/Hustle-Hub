@@ -32,12 +32,14 @@ function Home() {
           <NicheCard
             title="Web Development Mentors"
             description="Discover experienced developers and mentors from GitHub."
+            buttonText="Explore Mentors"
             route="/mentors"
           />
 
           <NicheCard
             title="Learning Books"
             description="Browse recommended books to improve your skills."
+            buttonText="Explore Books"
             route="/books"
           />
 
