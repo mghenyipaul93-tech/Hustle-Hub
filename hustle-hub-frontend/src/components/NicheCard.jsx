@@ -1,6 +1,11 @@
 import { useNavigate } from "react-router-dom";
 
-function NicheCard({ title, description, route }) {
+function NicheCard({
+  title,
+  description,
+  buttonText,
+  route,
+}) {
   const navigate = useNavigate();
 
   return (
@@ -11,6 +16,10 @@ function NicheCard({ title, description, route }) {
       <h3>{title}</h3>
 
       <p>{description}</p>
+
+      <button className="card-button">
+        {buttonText}
+      </button>
     </div>
   );
 }

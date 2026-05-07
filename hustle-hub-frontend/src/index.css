@@ -117,3 +117,17 @@ body {
   color: #666;
   line-height: 1.5;
 }
+
+.card-button {
+  margin-top: 16px;
+
+  padding: 10px 16px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #5b4bff;
+  color: white;
+
+  cursor: pointer;
+}
