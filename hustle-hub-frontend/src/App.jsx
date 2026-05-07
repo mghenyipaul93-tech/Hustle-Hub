@@ -1,5 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
+// Components
+import Navbar from "./components/Navbar";
+
 // Pages
 import Home from "./pages/Home";
 import Mentors from "./pages/Mentors";
@@ -9,8 +12,10 @@ import Favorites from "./pages/Favorites";
 function App() {
   return (
     <div>
-      <h1>Hustle Hub</h1>
+      {/* Navbar */}
+      <Navbar />
 
+      {/* Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mentors" element={<Mentors />} />
