@@ -1,3 +1,5 @@
+import NicheCard from "../components/NicheCard";
+
 function Home() {
   return (
     <div className="home-container">
@@ -11,7 +13,6 @@ function Home() {
           to accelerate your learning journey.
         </p>
 
-        {/* Search Bar */}
         <div className="search-bar">
           <input
             type="text"
@@ -22,12 +23,22 @@ function Home() {
         </div>
       </section>
 
-      {/* Niche Cards Section */}
+      {/* Niche Section */}
       <section className="niche-section">
         <h2>Explore Categories</h2>
 
         <div className="niche-cards">
-          {/* Cards will go here in Story 4 */}
+
+          <NicheCard
+            title="Web Development Mentors"
+            description="Discover experienced developers and mentors from GitHub."
+          />
+
+          <NicheCard
+            title="Learning Books"
+            description="Browse recommended books to improve your skills."
+          />
+
         </div>
       </section>
 

@@ -89,3 +89,31 @@ body {
   display: flex;
   gap: 24px;
 }
+
+.niche-card {
+  flex: 1;
+
+  padding: 24px;
+
+  background-color: white;
+
+  border: 1px solid #ddd;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.niche-card:hover {
+  transform: translateY(-4px);
+}
+
+.niche-card h3 {
+  margin-bottom: 12px;
+}
+
+.niche-card p {
+  color: #666;
+  line-height: 1.5;
+}
